@@ -4,10 +4,11 @@
   "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
   "main": "index.js",
   "scripts": {
-    "build": "resume export -f html index -t spartan && resume export -f pdf index -t spartan"
+    "build": "resume export -f html index -t class && resume export -f pdf index -t class",
+    "publish": "resume publish --theme class && curl https://jsonresume.io/keithamus -d @resume.json -H'Content-Type: Application/json' -H \"Auth: $JSONRESUMEIOPASS\""
   },
   "dependencies": {
-    "jsonresume-theme-spartan": "^0.2.1",
+    "jsonresume-theme-class": "^0.1.2",
     "resume-cli": "^0.4.19"
   },
   "private": true

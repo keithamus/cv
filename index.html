@@ -1,865 +1,562 @@
 <!doctype html>
 <html>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-	<title>Keith Cirkel</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Keith Cirkel - CV</title>
+
 	<style>
-		/********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* Custom reset */
-.main-summary p, 
-#publications .item,
-#skills .item,
-#languages .item,
-#references .item,
-#interests .item{
-	margin: 0;
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
 }
 
-
-/****************
-*		SMARTPHONES		
-****************/
 em {
-	color: #757575;
+	color: #999;
 }
+
 p {
-	margin: 1em 0;
+	line-height: 1.4;
 }
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
 blockquote {
 	margin: 0;
 	margin-bottom: 1em;
 }
-strong {
-	font-weight: 700;
-	font-size: 1.1em;
-}
-ul {
-	margin-top: 1em; 
-}
-div.item {
-	margin: 1em 0 2em;
-	padding-bottom: 2em;
-}
-div.item:last-of-type {
-	margin: 0;
-	border-bottom: none;
-	padding-bottom: 0;
-}
-p {
-	text-align: justify;
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
 }
 
-
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-}
-h1 {
-	font-size: 2.5rem;
-}
-h2,
-h3 {
-	font-size: 1rem;
-}
-a {
-	color: #EB5F51;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
-/* Layout */
-body {
-	background: #f2f2f2;
-	line-height: 1.6;
-	font-size: 13px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
-#resume {
-	padding: 1rem 0;
-	margin: 1rem auto;
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
 }
 
-#header {
-	padding: 0 1em;
-	margin-bottom: 1em;
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
 }
 
-#resume > header div {
-	display: table;
-	padding-left: 0.5em;
+.contact h3 {
+	padding-bottom: 10px;
 }
 
-#resume > header div.middle {
-	padding-top: 1.5em;
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
 }
 
-header img {
-	display: block;
-	width: 10em;
-	border-radius: 0.275em;
-	float: right;
-	vertical-align: middle;
-}
-
-header .name {
-	line-height: 1;
-}
-
-header .label {
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: #757575;
-}
-
-section:not(.section) {
-	padding: .5em 1rem;
-}
-
-section#references {
-	border-bottom:none;
-}
-
-section#basics {
-	background: inherit;
-	margin-bottom: 0;
-}
-
-section#skills {
-	padding-bottom: 0;
-}
-
-section#education, 
-section#work, 
-.main-summary section {
-	padding-bottom: 1em;
-}
-
-header::after {
-	display: table;
-	content: " ";
+.summary {
+	padding-top: 5px;
 	clear: both;
 }
 
-h2.section-title {
-	text-align: left;
-	font-size: 1rem;
-	font-weight: 400;
-	color: #757575;
-	padding: 1em 1rem 0;
-	margin-bottom: 0.1275em;
-}
-
-.date {
-	font-weight: 700;
-	color: #757575;
-}
-
-.position, .area, .institution {
-	font-weight: 700;
-}
-
-#interests .item, #languages .item {
-	padding: 0 1em 1em 0;
-	border-bottom: none;
-}
-
-.website::before {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-decoration: none;
-	min-width: 1.25em;
-	margin-right: 0.25em;
-	text-align: center;
-	content: '\f14c';
-}
-
-#profiles, #skills, #interests, #languages {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-	-webkit-justify-content: flex-start;
-	justify-content: flex-start;
-  padding-bottom: 1em;
-}
-
-#profiles, #location {
-	box-shadow: none;
-	padding: 0;
+#profiles {
+	overflow: hidden;
 }
 
 #profiles .item {
-	margin: 0;
-	padding: 0;
-	padding-right: 1em;
-	border-bottom: none;
+	float: left;
+	width: 50%;
 }
 
-#interests ul {
-	margin-top: 0.5em;
+.username{
+	margin-top: 10px;
 }
 
-#publications .name {
-	font-style: italic;
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
 }
 
-.courses li, .keywords li{
-	display: inline-block;
-	background: #f0f0f0;
-	font-size: 0.9em;
-	line-height: 1;
-	color: #333;
-	padding: 0.4em 0.8em;
-	border-bottom: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-radius: 3px;
-}
-
-#publications .date {
-	font-weight: normal;
-	color: #000;	
-}
-
-#skills .item {
-	min-width: 15em;
-	padding: 0 .5em .8em 0;
-	border-bottom: none;
-}
-
-
-/* Skills chart */
-#skills .level .bar {
-	border: 1px solid #ddd;
-	display: block;
-	width: 10em;
-	height: 5px;
-	margin: 0em 0 1em 0;
-	position: relative;
-}
-
-#skills .level .bar::after {
-	position: absolute;
-	content: " ";
-	top: 0;
-	left: 0;
-	background: black;
-	height: 5px;
-}
-
-#skills .level.beginner .bar::after {
-	background: #EB5F51;
-	width: 2.5em;
-} 
-
-#skills .level.intermediate .bar::after {
-	background: #ffdf1f;
-	width: 5em;
-} 
-
-#skills .level.advanced .bar::after {
-	background: #59C596;
-	width: 7.5em;
-} 
-
-#skills .level.master .bar::after {
-	background: #5CB85C;
-	width: 10em;
-}
-
-#references .item {
-	padding-left: 1em;
-	border-left: 5px solid #EB5F51;
-}
-
-.fa.social {
-	margin-right: 0.25em;
-	font-size: 1.1em;
-}
-
-/* Social Media Brand Colors */
-.google-plus {
-	color: #dd4b39;	
-}
-
-.tumblr {
-	color:#32506d;
-}
-
-.foursquare {
-	color:  #0072b1;
-}
-
-.facebook {
-	color: #3b5998;
-}
-
-.linkedin {
-	color: #007bb6;
-}
-
-.pinterest {
-	color: #cb2027;
-}
-
-.dribbble {
-	color: #ea4c89;
-}
-
-.instagram {
-	color: #517fa4;
-}
-
-.twitter {
-	color: #00aced;
-}
-
-.soundcloud { 
-	color: #ff3a00;
-}
-
-.wordpress {
-	color: #21759b;
-}
-
-.youtube {
-	color: #bb0000;
-}
-
-.github {
-	color: #171515;
-}
-
-.stack-overflow {
-	color: #828386;
-	position: relative;
-}
-
-.flickr {
-	color: #ff0084;
-}      
-
-.stack-overflow::after {
-	position: absolute;
-	left: 0;
-	content: '\f16c';
-	color: #f68a1f;
-	overflow: hidden;
-	height: 40%;
-}
-
-/******************
-*		HELPER CLASSES	
-******************/
-.fa {
-	min-width: 1.25em;
-	margin-right: 0.25em;
-	text-align: center;
-}
-
-.clear {
-	display: table;
+.courses {
 	clear: both;
 }
 
-
-/****************
-*		TABLET
-****************/
-@media screen and (min-width: 602px) { 
-	
-	#resume {
-		width: 550px;
-		margin: 0 auto;
-	}
-	section > header > h3 {
-		float:left;
-	}
-	section > header > .date {
-		float: right;
-		line-height: 1.3;
-	}
-
+.dissertation {
+	margin-top: 10px;
 }
 
-
-/****************
-*		LAPTOP	
-****************/
-@media screen and (min-width: 1025px) { 
-	
-	#resume {
-		width: 650px;		
-		padding: 3em;
-		margin: 3em auto;
-		background: #fff;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-	}
-
-	.section {
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;
-		-webkit-justify-content: space-between;
-		justify-content: space-between;
-		margin-bottom: 1em;
-		margin-top: 1em;
-		border-bottom: 1px solid #eee;
-	}
-
-	.section:last-of-type {
-		border-bottom: none;
-		margin-bottom: 0;
-	}
-
-	section > header {
-		line-height: 1;
-		padding-bottom: 1em; 
-	}
-
-	h2.section-title {
-		line-height: 1.1;
-		padding-top: 0;
-	}
-
-	section:not(.section) {
-		width: 34.5em;
-		padding: 0 1em 1em 0;
-		margin-top:0;
-		border: none;
-	}
-
-	section p {
-		margin: 0;
-	}
-
-	section#basics {
-		width: auto;
-		padding-top: 1em;
-		padding-left: 1em;
-		padding-bottom: 0;
-		border-top: 1px solid #eee;
-		border-bottom: 1px solid #eee;
-	}
-
-	#profiles .item{
-		padding-bottom: 1em;
-	}
-
-	div {
-		padding: 0;
-	}
-
-	#skills .item {
-		padding-left:0;
-		margin-top: 0;
-	}
-
-	div.item {
-		margin-top: 0;
-		border-bottom: 1px solid #eee;
-	}
-
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
 }
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
 	</style>
 	
-
+	</head>
 	<body>
-		<div id="resume">
-				<header id="header">
-						<img src="https://en.gravatar.com/userimage/17873740/9a796426f218d84db4a24905c3e5161b.jpeg?size=400" alt="Keith Cirkel"/>
-						<div class="middle">
-							<h1 class="name">Keith Cirkel</h1>
-							<h2 class="label">Senior Application Engineer at GitHub</h2>
-						</div>
+	
+	<header>
+	<h1>Keith Cirkel</h1>
+	<h2>Senior Application Engineer at GitHub</h2>
+	</header>
 
-				</header>
-				
-				<section id="basics">
-					
-						<div id="location">
-							<span class="city">
-								London
-							</span>
-							<span class="countryCode">
-								(GB),
-							</span>
-						</div>
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="website">
+			<strong>Website</strong>
+			https://keithcirkel.co.uk
+		</div>
+		<div class="email">
+			<strong>Email</strong>
+			work@keithcirkel.co.uk
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>JavaScript specialist with strong TDD experience. Passionate on delivering the best results working with a small and focused team. Strong Open Source advocate, committing to existing projects and creating new ones.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					Twitter
+				</strong>
+				<div class="url">
+					<a href="https://twitter.com/keithamus">
+						keithamus
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					GitHub
+				</strong>
+				<div class="url">
+					<a href="https://github.com/keithamus">
+						keithamus
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
 
-					<div id="contact">
-						<div class="website">
-							<a href="https://keithcirkel.co.uk">https://keithcirkel.co.uk</a>
-						</div>
-						<div class="email">
-							<span class="fa fa-envelope"></span>
-							<a href="mailto:work@keithcirkel.co.uk">work@keithcirkel.co.uk</a>
-						</div>
-					</div>
-				
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			<h3 class="work_name">
+				GitHub
+			</h3>
+			
+			<div class="work_position">
+				Senior Application Engineer
+			</div>
 
-					<div id="profiles">
-						<div class="item">
-							<span class="network fa fa-twitter twitter"></span>
-							<span class="username">
-								<span class="url">
-									<a href="https://twitter.com/keithamus">keithamus</a>
-								</span>
-							</span>
-						</div>
-						<div class="item">
-							<span class="network fa fa-github github"></span>
-							<span class="username">
-								<span class="url">
-									<a href="https://github.com/keithamus">keithamus</a>
-								</span>
-							</span>
-						</div>
-					</div>
-				</section>
+			<div class="work_date">
+				<span class="startDate">
+					2017-06-06
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+			</div>
 
-				<section class="section main-summary">
-					<h2 class='section-title'>About</h2>
-					<section>
-						<p>JavaScript specialist with strong TDD experience. Passionate on delivering the best results working with a small and focused team. Strong Open Source advocate, committing to existing projects and creating new ones.</p>
-					</section>
-				</section>
+			<div class="work_website">
+				<a href="https://github.com">https://github.com</a>
+			</div>
 
-				</section>
 
-				<section class="section">
-					<h2 class='section-title'>Experience</h2>
-					<section id="work">
-						<header>
-							<h3 class="name">
-								GitHub
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									June 2017
-								</span>
-								<span class="endDate">
-									- Present
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Senior Application Engineer
-						</div>
-						<div class="website">
-							<a href="https://github.com">https://github.com</a>
-						</div>
-						<div class="summary">
-							<p>Working on the Web Systems team, delivering GitHub.com&#x27;s JavaScript</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Beamly
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									February 2017
-								</span>
-								<span class="endDate">
-									- June 2017
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.beamly.com/">https://www.beamly.com/</a>
-						</div>
-						<div class="summary">
-							<p>Lead delivery for new Max Factor websites across all regions, including US, South America and UK markets. Using Node.js &amp; Handlebars with a Drupal backend. Using Chai &amp; Cucumber for testing.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Shark Finesse
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									October 2016
-								</span>
-								<span class="endDate">
-									- January 2017
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.sharkfinesse.com">http://www.sharkfinesse.com</a>
-						</div>
-						<div class="summary">
-							<p>Bought on for training role, upskilling existing team in Javascript, Node.js, AWS Lambda, TDD, Continuous Integration &amp; Delivery, Agile &amp; Scrum, Functional Programming.
+			<div class="summary">
+				<p>Working on the Web Systems team, delivering GitHub.com&#x27;s JavaScript</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Beamly
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2017-02-01
+				</span>
+				<span class="endDate">
+					- 2017-06-02
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.beamly.com/">https://www.beamly.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Lead delivery for new Max Factor websites across all regions, including US, South America and UK markets. Using Node.js &amp; Handlebars with a Drupal backend. Using Chai &amp; Cucumber for testing.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Shark Finesse
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2016-10-13
+				</span>
+				<span class="endDate">
+					- 2017-01-31
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.sharkfinesse.com">http://www.sharkfinesse.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Bought on for training role, upskilling existing team in Javascript, Node.js, AWS Lambda, TDD, Continuous Integration &amp; Delivery, Agile &amp; Scrum, Functional Programming.
 
 Porting existing ActionScript desktop app to Javascript using Electron, Node.js, Ramda &amp; Sanctuary for Functional Programming, and Mocha &amp; Chai for Unit Testing.
 
 Cultivated strong Agile workflow, strong TDD standards.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Financial Times
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									June 2016
-								</span>
-								<span class="endDate">
-									- October 2016
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.ft.com">https://www.ft.com</a>
-						</div>
-						<div class="summary">
-							<p>Assisted in migration of users to &quot;FT Next&quot; - the new iteration of FT.com.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Financial Times
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2016-06-06
+				</span>
+				<span class="endDate">
+					- 2016-10-13
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.ft.com">https://www.ft.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Assisted in migration of users to &quot;FT Next&quot; - the new iteration of FT.com.
 
 Primarily involved in migrating existing ft.com CDN from Akamai to Fastly, utilising heavy custom VCL code.
 
 Developed robust VCL test suite with continuous integration and deployment through Fastly deployment APIs, using CircleCI.
 
 Developed multiple front-end features including anonymous user marketing components, using Node.js, Handlebars, and FT&#x27;s own &quot;Origami&quot; component framework.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								The Economist
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									April 2015
-								</span>
-								<span class="endDate">
-									- June 2016
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.economist.com">https://www.economist.com</a>
-						</div>
-						<div class="summary">
-							<p>Bought on to train team on Node.js, React, TDD. Developed several microsites, assisted with architecture for overall web presence.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				The Economist
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2015-04-30
+				</span>
+				<span class="endDate">
+					- 2016-06-03
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.economist.com">https://www.economist.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Bought on to train team on Node.js, React, TDD. Developed several microsites, assisted with architecture for overall web presence.
 
 Implemented continuous integration &amp; delivery using semantic-release, Codeship, and Travis. Introduced strong unit test standards using Mocha &amp; Chai. Architected tooling for painlessly provisioning new projects.
 
 Worked with team to cultivate strong open source standards, fostering a suite of open source React components, available at https://github.com/economist-components.
 
 Assisted in the interviewing and hiring of new candidates to join the existing team.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Kingfisher PLC
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									January 2015
-								</span>
-								<span class="endDate">
-									- April 2015
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.diy.com">http://www.diy.com</a>
-						</div>
-						<div class="summary">
-							<p>Worked on a greenfield backend API communicating with SAP, using Hapi.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Kingfisher PLC
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2015-01-05
+				</span>
+				<span class="endDate">
+					- 2015-04-30
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.diy.com">http://www.diy.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Worked on a greenfield backend API communicating with SAP, using Hapi.
 
 Assisted in original architecture design, introducing Redis, Varnish, OAuth2 technologies, as well as architecture design for NFC authentication on the client side.
 
  Implemented Mocha and Chai for testing, with code coverage checking with Istanbul.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								PhotoBox
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									August 2014
-								</span>
-								<span class="endDate">
-									- November 2014
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.photobox.com">https://www.photobox.com</a>
-						</div>
-						<div class="summary">
-							<p>Brought on to fold Paper-Shaker incubator code into PhotoBox.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				PhotoBox
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2014-08-31
+				</span>
+				<span class="endDate">
+					- 2014-11-30
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.photobox.com">https://www.photobox.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Brought on to fold Paper-Shaker incubator code into PhotoBox.
 
 Worked with existing team to bring additional Node.js expertise to their existing stack - built on Node.js, Restify, MongoDB, Memcached.
 
 Introduced Mocha &amp; Chai. Introduced JSON Schema as a way of validating endpoint responses in integration tests. Helped with migration of site to HTTPS.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Autographer
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									May 2014
-								</span>
-								<span class="endDate">
-									- August 2014
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.autographer.com/">http://www.autographer.com/</a>
-						</div>
-						<div class="summary">
-							<p>Developing the Autographer Desktop application for Windows and Mac.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Autographer
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2014-05-06
+				</span>
+				<span class="endDate">
+					- 2014-08-31
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.autographer.com/">http://www.autographer.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Developing the Autographer Desktop application for Windows and Mac.
 
 Replaced the position of the lead developer, inheriting the 22,000 line Backbone JS codebase. Worked extensively on addressing performance concerns and adding new features - introducing much simpler and more robust components with the Polymer framework.
 
 Worked with existing junior developers &amp; testers to cultivate a good working process, including introducing TDD using Mocha, Sinon and Chai, functional testing with Mocha, Selenium and Node-WD, and Code Reviews via Github. Assisted in the interviewing and hiring of new candidates to join the existing team.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								BSkyB
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									February 2014
-								</span>
-								<span class="endDate">
-									- May 2014
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://news.sky.com/">http://news.sky.com/</a>
-						</div>
-						<div class="summary">
-							<p>Hired to lead the Sky News team to developing a new iteration of the website to Node.js, from Java.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				BSkyB
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2014-02-26
+				</span>
+				<span class="endDate">
+					- 2014-05-06
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://news.sky.com/">http://news.sky.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Hired to lead the Sky News team to developing a new iteration of the website to Node.js, from Java.
 
 Implemented a scaleable and repeatable architecture using Node.JS, HAProxy and Redis automated through Chef.
 
 Introduced Mocha, Chai, Sinon to the team for more effective testing.
 
 Worked extensively training team members to use new ES6 technologies, such as Promises.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								British Gas
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									November 2013
-								</span>
-								<span class="endDate">
-									- February 2014
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.britishgas.co.uk/">http://www.britishgas.co.uk/</a>
-						</div>
-						<div class="summary">
-							<p>Developing a greenfield home automation product using ZigBee, web application and server side stack.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				British Gas
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2013-11-01
+				</span>
+				<span class="endDate">
+					- 2014-02-25
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.britishgas.co.uk/">http://www.britishgas.co.uk/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Developing a greenfield home automation product using ZigBee, web application and server side stack.
 
 Entered the project to introduce Node.JS to the team, develop the architecture and set up good working standards.
 
@@ -868,116 +565,128 @@ Implemented a scalable architecture using Node.JS, Express, Redis, Cassandra, an
 Guided the team through the ZigBee spec and implementing it across firmware and server side software.
 
 Cultivated strong working standards using enforced code reviews via Github pull requests and TDD using Mocha and Chai. Replicated the ideals through other Node.JS projects in the organisation.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								British Gas
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									February 2013
-								</span>
-								<span class="endDate">
-									- October 2013
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.hivehome.com/">http://www.hivehome.com/</a>
-						</div>
-						<div class="summary">
-							<p>Developing the HiveHome.com web application &amp; brochure site.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				British Gas
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2013-02-01
+				</span>
+				<span class="endDate">
+					- 2013-10-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.hivehome.com/">http://www.hivehome.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Developing the HiveHome.com web application &amp; brochure site.
 
 Web development using Node.JS, Express, Redis, Backbone JS, D3 for Data Visualisation and Mocha and Chai for TDD, WebDriver and Selenium for functional testing. Extensive use of external APIs including integration with existing Salesforce platform. Introduced MVC Server Side concepts to the team.
 
 Developed a complementary internal telemetry dashboard using Dashing framework with custom build widgets. Introduced strong working set up using enforced code reviews via Github pull requests.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Electronic Arts
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									August 2012
-								</span>
-								<span class="endDate">
-									- February 2013
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.ea.com">https://www.ea.com</a>
-						</div>
-						<div class="summary">
-							<p>Working on the Origin Mobile &amp; Social application, featured in Fifa 14 mobile version.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Electronic Arts
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2012-08-01
+				</span>
+				<span class="endDate">
+					- 2013-02-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.ea.com">https://www.ea.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Working on the Origin Mobile &amp; Social application, featured in Fifa 14 mobile version.
 
 Entered the project to improve the existing codebase and outline strong standards across the team. Mobile JavaScript development, using Backbone JS, with Zepto and Underscore, using Jasmine for TDD. Extensive work in touch events &amp; mobile optimisation.
 
 Created build automation &amp; tooling with Grunt JS, and developed acceptance testing using WebDriver, across desktop and mobile. Conceptualised mobile debugging toolsets for developers.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								LexisNexis
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									August 2012
-								</span>
-								<span class="endDate">
-									- February 2013
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="http://www.lexisnexis.co.uk/">http://www.lexisnexis.co.uk/</a>
-						</div>
-						<div class="summary">
-							<p>Porting a silverlight application to JavaScript, using Backbone JS, Raphael JS, with jQuery and Underscore. Built to be cross compatible, public facing application.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				LexisNexis
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2012-08-01
+				</span>
+				<span class="endDate">
+					- 2013-02-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.lexisnexis.co.uk/">http://www.lexisnexis.co.uk/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Porting a silverlight application to JavaScript, using Backbone JS, Raphael JS, with jQuery and Underscore. Built to be cross compatible, public facing application.
 
 Introduced very strong TDD standards using QUnit and Sinon for frontend, and BDD with Cucumber JS and WebDriverJS (Selenium). Introduced a good standard for Documentation Driven Development.
 
 Introduced GIT to the team, as well as using Jenkins for CI tasks.
 
 Assisted in hiring process for new candidates.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								BSkyB
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									March 2011
-								</span>
-								<span class="endDate">
-									- January 2012
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Contract Javascript Consultant
-						</div>
-						<div class="website">
-							<a href="https://www.sky.com/">https://www.sky.com/</a>
-						</div>
-						<div class="summary">
-							<p>Working on a internal project for BSkyB&#x27;s call centres in an Agile software team using Javascript technologies including jQuery and Backbone JS.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				BSkyB
+			</h3>
+			
+			<div class="work_position">
+				Contract Javascript Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2011-03-01
+				</span>
+				<span class="endDate">
+					- 2012-01-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.sky.com/">https://www.sky.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Working on a internal project for BSkyB&#x27;s call centres in an Agile software team using Javascript technologies including jQuery and Backbone JS.
 
 Entered the team to develop and expand on existing prototype. Implemented strong OOP architecture using Backbone JS with jQuery and Underscore. Use of Sass for CSS stylesheets. Utilizing latest HTML5 and CSS3 and Javascript technologies, including WebSockets with Socket.io.
 
@@ -988,164 +697,147 @@ Created custom Open Source libraries fit-for-purpose including R.js (internation
 Migrated team from SVN to GIT to help improve productivity.
 
 Assisted in hiring process for new candidates.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								Xcite Digital
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									April 2010
-								</span>
-								<span class="endDate">
-									- March 2011
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Frontend Developer, Head of Creative
-						</div>
-						<div class="website">
-							<a href="http://www.xcitedigital.com/">http://www.xcitedigital.com/</a>
-						</div>
-						<div class="summary">
-							<p>Lead Frontend Developer, turned Head of Creative, working with many key clients.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Xcite Digital
+			</h3>
+			
+			<div class="work_position">
+				Frontend Developer, Head of Creative
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2010-04-01
+				</span>
+				<span class="endDate">
+					- 2011-03-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.xcitedigital.com/">http://www.xcitedigital.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Lead Frontend Developer, turned Head of Creative, working with many key clients.
 
 Developed and maintained large income client projects developed in Symfony 1.4, utilising jQuery for all frontend interactivity. Involved in key technical decisions, liaising with clients and suppliers and organising and managing other team members.
 
 Managed a series of virtual dedicated Linux servers, running Cherokee web server with MySQL and PHP.
 
 Introduced GIT to the team with no existing version control.</p>
-						</div>
-					</div>
-						<header>
-							<h3 class="name">
-								BrightHue
-							</h3>
-							<div class="date">
-								<span class="startDate">
-									August 2007
-								</span>
-								<span class="endDate">
-									- April 2010
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Founder
-						</div>
-						<div class="summary">
-							<p>Founder of a Digital Agency. Developed and designed sites for large clients, utilising technologies such as PHP, MySQL, Javascript &amp; jQuery.
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				BrightHue
+			</h3>
+			
+			<div class="work_position">
+				Founder
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2007-08-01
+				</span>
+				<span class="endDate">
+					- 2010-04-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Founder of a Digital Agency. Developed and designed sites for large clients, utilising technologies such as PHP, MySQL, Javascript &amp; jQuery.
 
 Managed and maintained virtual dedicated servers running a LAMP stack.</p>
-						</div>
-					</div>
-							<div class="date">
-								<span class="startDate">
-									January 2003
-								</span>
-								<span class="endDate">
-									- January 2007
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Freelancer
-						</div>
-						<div class="summary">
-							<p>Worked with small clients developing and maintaining websites utilising technologies such as PHP, MySQL, Javascript &amp; MooFX.</p>
-						</div>
-					</div>
-					</section>
-				</section>
-		
-		
+			</div>
+		</div>
+		<div class="item">
 			
-				<section class="section">
-					<h2 class='section-title'>Volunteer</h2>
-					<section id="volunteer">
-								<header>
-									<h3 class="company">
-										CodeClub
-									</h3>
-									<div class="date">
-										<span class="startDate">
-											January 2013
-										</span>
-										<span class="endDate">
-											- Present
-										</span>
-								</header>
-							<div class="item">
-							<div class="position">
-								Teacher
-							</div>
-							<div class="website">
-								<a href="https://codeclub.org.uk/">https://codeclub.org.uk/</a>
-							</div>
-							<div class="summary">
-								<p>Mentoring 9-11 year old pupils on how to program, using the Scratch programming environment.</p>
-							</div>
-						</div>
-					</section>
-				</section>
+			<div class="work_position">
+				Freelancer
+			</div>
 
-		
-				<section class="section">
-					<h2 class='section-title'>Publications</h2>
-					<section id="publications">
-							<div class="item">
-								<span class="name">
-									<span class="website">
-										<a href="https://www.apress.com/us/book/9781430261063">JavaScript Recipes - A Problem Solution Approach</a>
-									</span>
-								</span>
-									<span class="publisher">
-										in Apress,
-									</span>
-									<span class="date">
-										22 December 2016
-									</span>
-								<div class="summary">
-									<p>This comprehensive book is your go-to reference for tackling common and advanced JavaScript tasks. JavaScript is the world’s most popular client-side scripting language and is gaining popularity on the server. Using a problem-solution approach, this book takes you from language basics like built-in objects and flow control all the way to advanced optimization techniques, frameworks and Node.js. Quickly discover solutions to common problems, best practices you can follow, and everything JavaScript has to offer.</p>
-								</div>
-							</div>
-					</section>
-				</section>
-		
+			<div class="work_date">
+				<span class="startDate">
+					2003-01-01
+				</span>
+				<span class="endDate">
+					- 2007-01-01
+				</span>
+			</div>
 
 
-		
-				<section class="section">
-					<h2 class='section-title'>References</h2>
-					<section id="references">
-						<div class="item">
-							<blockquote class="reference">
-								&#8220;&#32;Keith&#x27;s a very highly skilled JavaScript specialist. Over the time we worked together he acted as a focal point for expertise across front-end and also back-end work, as a result of his strong experience with Node.JS. Very proactive and understands problems. Keith&#x27;s able to come up with solutions and voice them articulately. Highly recommend.&#32;&#8221;
-							</blockquote>
-							<div class="name">
-								Calum McGee
-							</div>
-						</div>
-						<div class="item">
-							<blockquote class="reference">
-								&#8220;&#32;I&#x27;ve hired Keith in the past so I was very keen to get him in at Sky to work alongside. I have not met anyone with Keith&#x27;s natural flair for frontend development before, and every time I see him I learn something new.
+
+			<div class="summary">
+				<p>Worked with small clients developing and maintaining websites utilising technologies such as PHP, MySQL, Javascript &amp; MooFX.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer">
+		<h2>Volunteer</h2>
+		<div class="item">
+			<h3 class="company">
+				CodeClub
+			</h3>
+			
+			<div class="work_position">
+				Teacher
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2013-01-01
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://codeclub.org.uk/">https://codeclub.org.uk/</a>
+			</div>
+			<div class="summary">
+				<p>Mentoring 9-11 year old pupils on how to program, using the Scratch programming environment.</p>
+			</div>
+		</div>
+	</section>
+	
+	
+
+
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<blockquote class="reference">
+				Keith&#x27;s a very highly skilled JavaScript specialist. Over the time we worked together he acted as a focal point for expertise across front-end and also back-end work, as a result of his strong experience with Node.JS. Very proactive and understands problems. Keith&#x27;s able to come up with solutions and voice them articulately. Highly recommend.
+			</blockquote>
+			<div class="name">
+				— Calum McGee
+			</div>
+		</div>
+		<div class="item">
+			<blockquote class="reference">
+				I&#x27;ve hired Keith in the past so I was very keen to get him in at Sky to work alongside. I have not met anyone with Keith&#x27;s natural flair for frontend development before, and every time I see him I learn something new.
 
 I would have no hesitation in placing Keith in charge of any size project as I know he will deliver. Keith&#x27;s very quick to fix issues as they arise and isn&#x27;t afraid of hard work when it&#x27;s required.
 
-I would work with him in every contract role I do if given the choice.&#32;&#8221;
-							</blockquote>
-							<div class="name">
-								Tom Cooksey
-							</div>
-						</div>
-					</section>
-				</section>
-		</div>		
-	</body>
+I would work with him in every contract role I do if given the choice.
+			</blockquote>
+			<div class="name">
+				— Tom Cooksey
+			</div>
+		</div>
+	</section>
 	
+	</div>
+	</body>
 </html>
