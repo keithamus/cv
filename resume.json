@@ -59,7 +59,7 @@
       "company": "The Economist",
       "position": "Contract Javascript Consultant",
       "website": "https://www.economist.com",
-      "startDate": "2015-04-31",
+      "startDate": "2015-04-30",
       "endDate": "2016-06-03",
       "summary": "Bought on to train team on Node.js, React, TDD. Developed several microsites, assisted with architecture for overall web presence.\n\nImplemented continuous integration & delivery using semantic-release, Codeship, and Travis. Introduced strong unit test standards using Mocha & Chai. Architected tooling for painlessly provisioning new projects.\n\nWorked with team to cultivate strong open source standards, fostering a suite of open source React components, available at https://github.com/economist-components.\n\nAssisted in the interviewing and hiring of new candidates to join the existing team."
     },
@@ -68,7 +68,7 @@
       "position": "Contract Javascript Consultant",
       "website": "http://www.diy.com",
       "startDate": "2015-01-05",
-      "endDate": "2015-04-31",
+      "endDate": "2015-04-30",
       "summary": "Worked on a greenfield backend API communicating with SAP, using Hapi.\n\nAssisted in original architecture design, introducing Redis, Varnish, OAuth2 technologies, as well as architecture design for NFC authentication on the client side.\n\n Implemented Mocha and Chai for testing, with code coverage checking with Istanbul."
     },
     {
@@ -76,7 +76,7 @@
       "position": "Contract Javascript Consultant",
       "website": "https://www.photobox.com",
       "startDate": "2014-08-31",
-      "endDate": "2014-11-31",
+      "endDate": "2014-11-30",
       "summary": "Brought on to fold Paper-Shaker incubator code into PhotoBox.\n\nWorked with existing team to bring additional Node.js expertise to their existing stack - built on Node.js, Restify, MongoDB, Memcached.\n\nIntroduced Mocha & Chai. Introduced JSON Schema as a way of validating endpoint responses in integration tests. Helped with migration of site to HTTPS."
     },
     {
@@ -107,53 +107,53 @@
       "company": "British Gas",
       "position": "Contract Javascript Consultant",
       "website": "http://www.hivehome.com/",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2013-02-01",
+      "endDate": "2013-10-01",
       "summary": "Developing the HiveHome.com web application & brochure site.\n\nWeb development using Node.JS, Express, Redis, Backbone JS, D3 for Data Visualisation and Mocha and Chai for TDD, WebDriver and Selenium for functional testing. Extensive use of external APIs including integration with existing Salesforce platform. Introduced MVC Server Side concepts to the team.\n\nDeveloped a complementary internal telemetry dashboard using Dashing framework with custom build widgets. Introduced strong working set up using enforced code reviews via Github pull requests."
     },
     {
       "company": "Electronic Arts",
       "position": "Contract Javascript Consultant",
       "website": "https://www.ea.com",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2012-08-01",
+      "endDate": "2013-02-01",
       "summary": "Working on the Origin Mobile & Social application, featured in Fifa 14 mobile version.\n\nEntered the project to improve the existing codebase and outline strong standards across the team. Mobile JavaScript development, using Backbone JS, with Zepto and Underscore, using Jasmine for TDD. Extensive work in touch events & mobile optimisation.\n\nCreated build automation & tooling with Grunt JS, and developed acceptance testing using WebDriver, across desktop and mobile. Conceptualised mobile debugging toolsets for developers."
     },
     {
       "company": "LexisNexis",
       "position": "Contract Javascript Consultant",
       "website": "http://www.lexisnexis.co.uk/",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2012-08-01",
+      "endDate": "2013-02-01",
       "summary": "Porting a silverlight application to JavaScript, using Backbone JS, Raphael JS, with jQuery and Underscore. Built to be cross compatible, public facing application.\n\nIntroduced very strong TDD standards using QUnit and Sinon for frontend, and BDD with Cucumber JS and WebDriverJS (Selenium). Introduced a good standard for Documentation Driven Development.\n\nIntroduced GIT to the team, as well as using Jenkins for CI tasks.\n\nAssisted in hiring process for new candidates."
     },
     {
       "company": "BSkyB",
       "position": "Contract Javascript Consultant",
       "website": "https://www.sky.com/",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2011-03-01",
+      "endDate": "2012-01-01",
       "summary": "Working on a internal project for BSkyB's call centres in an Agile software team using Javascript technologies including jQuery and Backbone JS.\n\nEntered the team to develop and expand on existing prototype. Implemented strong OOP architecture using Backbone JS with jQuery and Underscore. Use of Sass for CSS stylesheets. Utilizing latest HTML5 and CSS3 and Javascript technologies, including WebSockets with Socket.io.\n\nIntroduced strong TDD standards using QUnit and Sinon for frontend. Improved End-to-End functional testing using JBehave and Behat.\n\nCreated custom Open Source libraries fit-for-purpose including R.js (internationalization) and Jwerty (key binding). Contributed patches to Backbone JS core.\n\nMigrated team from SVN to GIT to help improve productivity.\n\nAssisted in hiring process for new candidates."
     },
     {
       "company": "Xcite Digital",
       "position": "Frontend Developer, Head of Creative",
       "website": "http://www.xcitedigital.com/",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2010-04-01",
+      "endDate": "2011-03-01",
       "summary": "Lead Frontend Developer, turned Head of Creative, working with many key clients.\n\nDeveloped and maintained large income client projects developed in Symfony 1.4, utilising jQuery for all frontend interactivity. Involved in key technical decisions, liaising with clients and suppliers and organising and managing other team members.\n\nManaged a series of virtual dedicated Linux servers, running Cherokee web server with MySQL and PHP.\n\nIntroduced GIT to the team with no existing version control."
     },
     {
       "company": "BrightHue",
       "position": "Founder",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2007-08-01",
+      "endDate": "2010-04-01",
       "summary": "Founder of a Digital Agency. Developed and designed sites for large clients, utilising technologies such as PHP, MySQL, Javascript & jQuery.\n\nManaged and maintained virtual dedicated servers running a LAMP stack."
     },
     {
       "position": "Freelancer",
-      "startDate": "2013-11-01",
-      "endDate": "2014-02-25",
+      "startDate": "2003-01-01",
+      "endDate": "2007-01-01",
       "summary": "Worked with small clients developing and maintaining websites utilising technologies such as PHP, MySQL, Javascript & MooFX."
     }
   ],
