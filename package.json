@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "jsonresume-theme-class": "^0.1.2",
-    "resume-cli": "^0.4.19"
+    "resume-cli": "^3.0.8"
   },
   "private": true
 }
