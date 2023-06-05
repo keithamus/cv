@@ -29,7 +29,7 @@
       "position": "Senior Application Engineer",
       "website": "https://github.com",
       "startDate": "2017-06-06",
-      "summary":  "Working on the Web Systems team, delivering GitHub.com's JavaScript"
+      "summary": "Working on the Web Systems team, delivering GitHub.com's JavaScript"
     },
     {
       "company": "Beamly",
@@ -37,7 +37,7 @@
       "website": "https://www.beamly.com/",
       "startDate": "2017-02-01",
       "endDate": "2017-06-02",
-      "summary":  "Lead delivery for new Max Factor websites across all regions, including US, South America and UK markets. Using Node.js & Handlebars with a Drupal backend. Using Chai & Cucumber for testing."
+      "summary": "Lead delivery for new Max Factor websites across all regions, including US, South America and UK markets. Using Node.js & Handlebars with a Drupal backend. Using Chai & Cucumber for testing."
     },
     {
       "company": "Shark Finesse",
@@ -45,7 +45,7 @@
       "website": "http://www.sharkfinesse.com",
       "startDate": "2016-10-13",
       "endDate": "2017-01-31",
-      "summary":  "Bought on for training role, upskilling existing team in Javascript, Node.js, AWS Lambda, TDD, Continuous Integration & Delivery, Agile & Scrum, Functional Programming.\n\nPorting existing ActionScript desktop app to Javascript using Electron, Node.js, Ramda & Sanctuary for Functional Programming, and Mocha & Chai for Unit Testing.\n\nCultivated strong Agile workflow, strong TDD standards."
+      "summary": "Bought on for training role, upskilling existing team in Javascript, Node.js, AWS Lambda, TDD, Continuous Integration & Delivery, Agile & Scrum, Functional Programming.\n\nPorting existing ActionScript desktop app to Javascript using Electron, Node.js, Ramda & Sanctuary for Functional Programming, and Mocha & Chai for Unit Testing.\n\nCultivated strong Agile workflow, strong TDD standards."
     },
     {
       "company": "Financial Times",
@@ -53,7 +53,7 @@
       "website": "https://www.ft.com",
       "startDate": "2016-06-06",
       "endDate": "2016-10-13",
-      "summary":  "Assisted in migration of users to \"FT Next\" - the new iteration of FT.com.\n\nPrimarily involved in migrating existing ft.com CDN from Akamai to Fastly, utilising heavy custom VCL code.\n\nDeveloped robust VCL test suite with continuous integration and deployment through Fastly deployment APIs, using CircleCI.\n\nDeveloped multiple front-end features including anonymous user marketing components, using Node.js, Handlebars, and FT's own \"Origami\" component framework."
+      "summary": "Assisted in migration of users to \"FT Next\" - the new iteration of FT.com.\n\nPrimarily involved in migrating existing ft.com CDN from Akamai to Fastly, utilising heavy custom VCL code.\n\nDeveloped robust VCL test suite with continuous integration and deployment through Fastly deployment APIs, using CircleCI.\n\nDeveloped multiple front-end features including anonymous user marketing components, using Node.js, Handlebars, and FT's own \"Origami\" component framework."
     },
     {
       "company": "The Economist",
@@ -163,7 +163,7 @@
       "publisher": "Apress",
       "releaseDate": "2016-12-22",
       "website": "https://www.apress.com/us/book/9781430261063",
-      "summary": "This comprehensive book is your go-to reference for tackling common and advanced JavaScript tasks. JavaScript is the world’s most popular client-side scripting language and is gaining popularity on the server. Using a problem-solution approach, this book takes you from language basics like built-in objects and flow control all the way to advanced optimization techniques, frameworks and Node.js. Quickly discover solutions to common problems, best practices you can follow, and everything JavaScript has to offer."
+      "summary": "This comprehensive book is your go-to reference for tackling common and advanced JavaScript tasks. JavaScript is the world\u2019s most popular client-side scripting language and is gaining popularity on the server. Using a problem-solution approach, this book takes you from language basics like built-in objects and flow control all the way to advanced optimization techniques, frameworks and Node.js. Quickly discover solutions to common problems, best practices you can follow, and everything JavaScript has to offer."
     }
   ],
   "volunteer": [
