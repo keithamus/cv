@@ -4,7 +4,6 @@
     "label": "Senior Application Engineer at GitHub",
     "picture": "https://en.gravatar.com/userimage/17873740/9a796426f218d84db4a24905c3e5161b.jpeg?size=400",
     "email": "work@keithcirkel.co.uk",
-    "website": "https://keithcirkel.co.uk",
     "summary": "I love building the Web Platform! Systems engineer at GitHub. OSS Contributor.",
     "location": {
       "city": "London",
@@ -12,9 +11,9 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "keithamus",
-        "url": "https://twitter.com/keithamus"
+        "network": "Website",
+        "username": "https://keithcirkel.co.uk",
+        "url": "https://keithcirkel.co.uk"
       },
       {
         "network": "GitHub",
